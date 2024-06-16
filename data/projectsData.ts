@@ -7,20 +7,16 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Translation Agent',
+    description: `吴恩达开源的翻译Agent项目，使用LangChain和OpenAI API进行Agent的搭建`,
+    imgSrc: '/static/images/agent.png',
+    href: 'https://github.com/andrewyng/translation-agent',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'LangChain',
+    description: `快速搭建Prompt、RAG、Agent的开源项目`,
+    imgSrc: '/static/images/langchain.png',
+    href: 'https://python.langchain.com',
   },
 ]
 
